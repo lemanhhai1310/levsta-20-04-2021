@@ -1,0 +1,48 @@
+.footer{
+  @include media-breakpoint-up('m'){
+    min-height: 640px;
+  }
+  &__overlay{
+    background: rgba(#000, 0.7);
+  }
+  &__title1{
+    @extend .fz-10;
+    font-family: $font-Segoe-UI-Semibold;
+    color: #ffffff;
+    line-height: (12/10);
+  }
+  &__input{
+    @extend .fz-10;
+    font-family: $font-Segoe-UI-Regular;
+    background: rgba(#fff, 0.5);
+    border: none !important;
+    color: #333333;
+    &::placeholder{
+      color: #333333;
+    }
+  }
+  &__btn{
+    @extend .fz-10;
+    font-family: $font-Segoe-UI-Regular;
+  }
+  &__title2{
+    @extend .fz-16;
+    font-family: $font-Segoe-UI-Semibold;
+    line-height: (19.2/16);
+    color: #ffffff;
+    margin-bottom: 3px;
+  }
+  &__desc{
+    font-family: $font-Segoe-UI-Regular;
+    @extend .fz-8;
+    color: #999999;
+    line-height: (10/8);
+  }
+  &__list{
+    @extend .fz-10;
+    >li{
+      color: #ffffff;
+      margin: 0 !important;
+    }
+  }
+}

@@ -1,0 +1,62 @@
+.home{
+  &__blockSlider{
+    &__overlay{
+      background: rgba(0, 0, 0, 0.2);
+    }
+    &__title{
+      line-height: (24/20);
+      @extend .fz-20;
+      font-family: $font-Segoe-UI-Semibold;
+      color: #ffffff;
+      margin-bottom: 6px !important;
+    }
+    &__desc{
+      line-height: (18/15);
+      @extend .fz-15;
+      color: #ffffff;
+      letter-spacing: 2.75px;
+    }
+  }
+  &__block01{
+    &__bg{
+      backdrop-filter: grayscale(1);
+      .uk-transition-toggle:hover &{
+        backdrop-filter: grayscale(0);
+      }
+    }
+    &__title{
+      color: #ffffff;
+      font-family: $font-SVN-Segoe-UI-Bold;
+      @extend .fz-20;
+      line-height: (24/20);
+      padding-bottom: 15px;
+      position: relative;
+      &:after{
+        content: "";
+        position: absolute;
+        width: 50px;
+        height: 1px;
+        display: inline-block;
+        background: $color2;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+  &__block02{
+    &__txt1{
+      @extend .fz-30;
+      line-height: 1;
+      font-family: $font-Segoe-UI-Semibold;
+      color: $color2;
+      margin-bottom: 8px;
+    }
+    &__txt2{
+      @extend .fz-20;
+      line-height: 1;
+      color: #000;
+      font-family: $font-Segoe-UI-Semibold;
+    }
+  }
+}

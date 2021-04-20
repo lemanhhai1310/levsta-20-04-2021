@@ -1,5 +1,38 @@
 /**
  * --------------------------------------------------------------------
+ * SVN-Segoe UI
+ * --------------------------------------------------------------------
+ */
+@font-face{
+  font-family:'SVN-Segoe UI Light Regular';
+  font-display: auto;
+  src:local('SVN-Segoe UI Light Regular'), url('fonts/SVN-Segoe-UI-Light.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face{
+  font-family:'Segoe UI Semibold';
+  font-display: auto;
+  src:local('Segoe UI Semibold'), url('fonts/seguisb.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face{
+  font-family:'SVN-Segoe UI Bold';
+  font-display: auto;
+  src:local('SVN-Segoe UI Bold'), url('fonts/SVN-Segoe-UI-Bold.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face{
+  font-family:'Segoe UI Regular';
+  font-display: auto;
+  src:local('Segoe UI Regular'), url('fonts/Segoe-UI.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+/**
+ * --------------------------------------------------------------------
  * Arial
  * --------------------------------------------------------------------
  */

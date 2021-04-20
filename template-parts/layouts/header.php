@@ -2,7 +2,7 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>BASE - <?= /** @var TYPE_NAME  */
+    <title>Levsta - <?= /** @var TYPE_NAME  */
         (isset($data['title'])) ? $data['title'] : ''; ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <!--CSS-->
@@ -21,3 +21,49 @@
 <body class="<?= ($is_home) ? 'isHome' : '' ?>">
 <?php require "template-parts/commons/facebook_chat.php"; ?>
 <section id="app" class="uk-height-viewport uk-offcanvas-content uk-overflow-hidden uk-position-relative">
+<div uk-sticky="animation: uk-animation-slide-top;top: 100vh;">
+    <div class="header">
+        <div class="uk-container uk-padding-remove">
+            <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+
+                <div class="uk-navbar-left">
+                    <a href="" class="uk-navbar-item uk-logo"><img src="images/1x/logo.png" alt=""></a>
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        <li class="uk-active"><a href="#">TRANG CHỦ</a></li>
+                        <li><a href="#">GIỚI THIỆU</a></li>
+                        <li><a href="#">DỊCH VỤ</a></li>
+                        <li><a href="#">BẤT ĐỘNG SẢN</a></li>
+                        <li><a href="#">TIN TỨC</a></li>
+                        <li><a href="#">TUYỂN DỤNG</a></li>
+                        <li><a href="#">LIÊN HỆ</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="uk-navbar-right">
+                    <div class="uk-navbar-item">
+                        <div class="uk-grid-10 uk-flex-middle" uk-grid>
+                            <div>
+                                <ul class="uk-grid-5 uk-flex-middle" uk-grid>
+                                    <li class="uk-active"><a class="header__langItem" href="">VN</a></li>
+                                    <li>/</li>
+                                    <li><a class="header__langItem" href="">EN</a></li>
+                                </ul>
+                            </div>
+                            <div class="uk-visible@m">
+                                <form class="uk-search uk-search-default header__formSearch">
+                                    <span class="uk-search-icon-flip" uk-search-icon></span>
+                                    <input class="uk-search-input uk-form-small uk-border-pill" type="search" placeholder="Tìm kiếm...">
+                                </form>
+                            </div>
+                            <div>
+                                <a href=""><img style="height: 30px;" src="images/1x/user.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+    </div>
+</div>
