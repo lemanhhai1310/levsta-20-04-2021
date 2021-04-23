@@ -1098,6 +1098,7 @@ body {
 .home__block01__bg {
   -webkit-backdrop-filter: grayscale(1);
           backdrop-filter: grayscale(1);
+  background: rgba(0, 0, 0, 0.2);
 }
 .uk-transition-toggle:hover .home__block01__bg {
   -webkit-backdrop-filter: grayscale(0);

@@ -92,7 +92,7 @@
 
             </div>
             <a href="#" class="uk-link-toggle uk-position-cover home__block01__bg uk-padding-small uk-flex uk-flex-middle uk-flex-center">
-                <div class="uk-text-center">
+                <div class="uk-text-center" uk-toggle="cls: uk-margin-xlarge-top; mode: media; media: @m">
                     <h2 class="uk-h2 home__block01__title"><?= $v['txt'] ?></h2>
                 </div>
             </a>

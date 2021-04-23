@@ -20,6 +20,7 @@
   &__block01{
     &__bg{
       backdrop-filter: grayscale(1);
+      background: rgba(0, 0, 0, 0.2);
       .uk-transition-toggle:hover &{
         backdrop-filter: grayscale(0);
       }
