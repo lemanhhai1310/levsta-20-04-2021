@@ -27,15 +27,15 @@
             <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
 
                 <div class="uk-navbar-left">
-                    <a href="" class="uk-navbar-item uk-logo"><img src="images/1x/logo.png" alt=""></a>
+                    <a href="." class="uk-navbar-item uk-logo"><img src="images/1x/logo.png" alt=""></a>
                     <ul class="uk-navbar-nav uk-visible@m">
-                        <li class="uk-active"><a href="#">TRANG CHỦ</a></li>
+                        <li class="uk-active"><a href=".">TRANG CHỦ</a></li>
                         <li><a href="#">GIỚI THIỆU</a></li>
                         <li><a href="#">DỊCH VỤ</a></li>
                         <li><a href="#">BẤT ĐỘNG SẢN</a></li>
                         <li><a href="#">TIN TỨC</a></li>
                         <li><a href="#">TUYỂN DỤNG</a></li>
-                        <li><a href="#">LIÊN HỆ</a></li>
+                        <li><a href="lienhe.php">LIÊN HỆ</a></li>
                     </ul>
 
                 </div>

@@ -52,12 +52,14 @@
       font-family: $font-Segoe-UI-Semibold;
       color: $color2;
       margin-bottom: 8px;
+      text-transform: uppercase;
     }
     &__txt2{
       @extend .fz-20;
       line-height: 1;
       color: #000;
       font-family: $font-Segoe-UI-Semibold;
+      text-transform: uppercase;
     }
   }
 }

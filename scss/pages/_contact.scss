@@ -1,0 +1,36 @@
+.lienhe{
+  &__title{
+    @extend .fz-20;
+    line-height: (24/20);
+    font-family: $font-Segoe-UI-Semibold;
+    color: #000;
+  }
+  &__box1{
+    border-left: 2px solid $color2;
+    padding-left: 15px;
+    &__w1{
+      width: 68px;
+      display: inline-block;
+    }
+    >li{
+      margin: 0 !important;
+      span{
+        @extend .fz-14;
+        font-family: $font-Segoe-UI-Regular;
+        color: #000;
+      }
+    }
+  }
+  &__boxForm{
+    &__input{
+      @extend .fz-12;
+      font-family: $font-SVN-Segoe-UI-Light;
+      background: #999999;
+      border-color: #999999;
+      color: #000;
+      &::placeholder{
+        color: #000;
+      }
+    }
+  }
+}
