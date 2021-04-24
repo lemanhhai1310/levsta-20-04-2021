@@ -69,19 +69,19 @@
                 <form>
                     <fieldset class="uk-fieldset">
 
-                        <div class="uk-margin">
+                        <div class="uk-margin-small">
                             <input class="uk-input lienhe__boxForm__input" type="text" placeholder="Họ và tên: *">
                         </div>
 
-                        <div class="uk-margin">
+                        <div class="uk-margin-small">
                             <input class="uk-input lienhe__boxForm__input" type="text" placeholder="Số điện thoại: *">
                         </div>
 
-                        <div class="uk-margin">
+                        <div class="uk-margin-small">
                             <input class="uk-input lienhe__boxForm__input" type="text" placeholder="Email: *">
                         </div>
 
-                        <div class="uk-margin">
+                        <div class="uk-margin-small">
                             <textarea class="uk-textarea lienhe__boxForm__input" rows="5" placeholder="Lời nhắn: *"></textarea>
                         </div>
 
