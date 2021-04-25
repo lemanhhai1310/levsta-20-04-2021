@@ -1,5 +1,5 @@
 <div class="footer uk-position-relative uk-background-norepeat uk-background-cover" data-src="images/1x/bg_f.png" uk-img>
-    <div class="uk-section-xsmall footer__overlay" uk-toggle="cls: uk-position-bottom; mode: media; media: @m">
+    <div class="uk-section-small footer__overlay" <?= ($is_home) ? 'uk-toggle="cls: uk-position-bottom; mode: media; media: @m"' : '' ?>>
         <div class="uk-container">
             <div class="" uk-grid>
                 <div>

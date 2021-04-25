@@ -1,6 +1,9 @@
 .footer{
   @include media-breakpoint-up('m'){
-    min-height: 640px;
+    //min-height: 640px;
+    .isHome &{
+      min-height: 640px;
+    }
   }
   &__overlay{
     background: rgba(#000, 0.7);
