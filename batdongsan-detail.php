@@ -3,9 +3,26 @@
 <?php require "template-parts/layouts/header.php"; ?>
 <div class="uk-section-small uk-light uk-background-norepeat uk-background-cover uk-background-center-center uk-background-fixed" data-src="images/1x/bg-bds.png" uk-img uk-height-viewport="offset-top: true;offset-bottom: true;">
     <div class="uk-container">
-        <div class="" uk-grid>
-            <div class="uk-width-1-4@m">
-
+        <div class="uk-grid-100-m" uk-grid>
+            <div class="uk-width-1-3@m">
+                <div uk-sticky="offset: 100">
+                    <div class="uk-margin-medium">
+                        <div class="mb-15 mb-20-m">
+                            <h3 class="uk-h3 uk-margin-remove bds__sidebarLeft__title">FOREST CITY-MALAYSIA NGÔI NHÀ CỦA TƯƠNG LAI</h3>
+                        </div>
+                        <p class="bds__sidebarLeft__desc">
+                            Forest City bao phủ trọn vẹn 4 đảo nhân tạo thuộc bang Johor Bahru, Malaysia, dự án hoàn thành sẽ cung ứng chốn sinh sống cho hơn 700.000 người dân cũng như du khách nghỉ dưỡng. Nằm trên tuyến hàng hải Malacca chiếm 1/4 lượng lưu thông hàng hải thế giới và là một phần của đặc khu kinh tế Iskandar, dự án có nhiều hơn một lợi thế thu hút du lịch và đầu tư...
+                        </p>
+                        <a href="" class="bds__sidebarLeft__btn uk-button uk-button-secondary uk-button-small uk-border-pill">Read More...</a>
+                    </div>
+                    <ul class="uk-margin-medium uk-nav uk-nav-default bds__sidebarLeft__nav" uk-scrollspy-nav="closest: li; scroll: true; offset: 100">
+                        <li><a href="#thongsoduan">THÔNG SỐ DỰ ÁN </a></li>
+                        <li><a href="#thongtin">THÔNG TIN</a></li>
+                        <li><a href="#thutucdinhcu">THỦ TỤC ĐỊNH CƯ VÀ TÍNH PHÁP LÝ CỦA DỰ ÁN</a></li>
+                        <li><a href="#phuongthucthanhtoan">PHƯƠNG THỨC THANH TOÁN</a></li>
+                        <li><a href="#tienich">TIỆN ÍCH ĐẲNG CẤP TẠI DỰ ÁN</a></li>
+                    </ul>
+                </div>
             </div>
             <div class="uk-width-expand">
                 <div id="thongsoduan" class="uk-margin-large">
@@ -157,7 +174,48 @@
                         <div class="mb-15 mb-20-m">
                             <h3 class="uk-h3 uk-margin-remove bds__contentRight__title">TIỆN ÍCH ĐẲNG CẤP TẠI DỰ ÁN</h3>
                         </div>
-                        
+                        <div uk-grid>
+                            <?php
+                            $data = array(
+                                array(
+                                    'src' => 'images/1x/img1.png',
+                                    'desc' => 'Forest City - Thánh địa nghỉ dưỡng 
+Hội tụ nhiều đặc trưng ưu việt hiếm có, quần thể Forest City Malaysia hứa hẹn sẽ trở thành điểm đến nghỉ dưỡng tựa thiên đường dành cho du khách trên toàn thế giới cũng như là “ngôi nhà thứ 2” thuận tiện nghỉ hưu, thư thái tịnh tâm thư giãn cho các kỳ nghỉ của gia đình.',
+                                ),
+                                array(
+                                    'src' => 'images/1x/img2.png',
+                                    'desc' => 'Trong lành hóa không gian sống 
+Mang lại chốn ban sơ nơi trần thế tránh xa khói bụi và ồn ào, dự án được bao phủ một sắc xanh với những con nước len lỏi khắp quần đảo đóng vai trò vừa là phương án điều hòa tự nhiên vừa tạo nên vẻ đẹp thẩm mỹ. Nhằm hạn chế lưu thông trên mặt đất, những con đường hầm dành cho xe cộ đi lại cũng được hình thành.',
+                                ),
+                                array(
+                                    'src' => 'images/1x/img3.png',
+                                    'desc' => 'Hạ tầng cơ sở hoàn hảo 
+Đạt đến đỉnh cao kiến trúc, dự án có được lớp đất nền vững chắc để kiến tạo nên các công trình nhà ở và hạ tầng cơ sở đồng bộ. Tựa như đất nước thu nhỏ, dự án Forest City có được hệ thống đường xá hiện đại với sự phong phú các phương tiện giao thông. Đồng thời, mạng lưới điện năng, nước ngọt, trường học, bệnh viện cùng các công trình công cộng khác cũng được trang bị đầy đủ.',
+                                ),
+                                array(
+                                    'src' => 'images/1x/img4.png',
+                                    'desc' => 'Đặc ân thiên nhiên
+Không phải ngẫu nhiên Malaysia được mệnh danh là thiên đường nhiệt đới, nơi đây được thiên nhiên ban tặng nền khí hậu ấm áp, nhiệt đới ẩm và đa dạng hệ sinh thái. Đặc biệt, quần đảo Forest City được ưu ái ban thời tiết ấm áp quanh năm, bãi biển tuyệt đẹp, địa hình bằng phẳng phong phú hệ thủy sinh, thực vật, chim muông và luôn an toàn với bão',
+                                ),
+                            );
+                            foreach ($data as $k => $v): ?>
+                            <div class="uk-width-1-1">
+                                <div class="uk-child-width-1-2@m uk-flex-middle" uk-grid>
+                                    <div class="<?= ($k % 2 == 1) ? 'uk-flex-last@m' : '' ?>">
+                                        <div class="uk-cover-container">
+                                            <img src="<?= $v['src'] ?>" alt="" uk-cover>
+                                            <canvas width="600" height="338"></canvas>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="bds__contentRight__box1">
+                                            <?= $v['desc'] ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <?php endforeach; ?>
+                        </div>
                     </div>
                 </div>
             </div>

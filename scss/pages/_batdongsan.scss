@@ -1,4 +1,50 @@
 .bds{
+  &__sidebarLeft{
+    &__title{
+      line-height: (25/15);
+      @extend .fz-15;
+      font-family: $font-SVN-Segoe-UI-Bold;
+      color: #ffffff;
+    }
+    &__desc{
+      line-height: (15/12);
+      @extend .fz-12;
+      font-family: $font-SVN-Segoe-UI-Light;
+    }
+    &__btn{
+      text-transform: capitalize;
+      background: rgba(#fff, 0.3) !important;
+      color: rgba(#fff,0.7) !important;
+    }
+    &__nav{
+      >li{
+        &.uk-active{
+          >a{
+            font-family: $font-SVN-Segoe-UI-Bold;
+            position: relative;
+            &:before{
+              @include media-breakpoint-up('m'){
+                content: "";
+                position: absolute;
+                right: calc(100% + 15px);
+                top: 50%;
+                transform: translateY(-50%);
+                width: 50px;
+                height: 1px;
+                background-color: #fff;
+                display: inline-block;
+              }
+            }
+          }
+        }
+        >a{
+          line-height: (14.4/12);
+          @extend .fz-12;
+          font-family: $font-SVN-Segoe-UI-Light;
+        }
+      }
+    }
+  }
   &__contentRight{
     &__title{
       text-transform: uppercase;

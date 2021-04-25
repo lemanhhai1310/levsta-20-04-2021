@@ -25,6 +25,34 @@
         backdrop-filter: grayscale(0);
       }
     }
+    &__bg1{
+      background: rgba(0, 0, 0, 0.2);
+      @include media-breakpoint-up('m'){
+        $x: 100px;
+        padding-left: #{$x};
+        padding-right: #{$x};
+      }
+    }
+    &__title1{
+      line-height: (17/12);
+      @extend .fz-12;
+      font-family: $font-Segoe-UI-Semibold;
+      color: #ffffff;
+      text-transform: uppercase;
+      padding-bottom: 15px;
+      position: relative;
+      &:after{
+        content: "";
+        position: absolute;
+        width: 60px;
+        height: 1px;
+        display: inline-block;
+        background: #ffffff;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
     &__title{
       color: #ffffff;
       font-family: $font-SVN-Segoe-UI-Bold;
