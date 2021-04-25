@@ -1,0 +1,43 @@
+.menuVtv{
+  .uk-nav-default{
+    >li{
+      >a{
+        .uk-icon{
+          min-width: 38px;
+          text-align: center;
+          svg{
+            height: 20px;
+          }
+        }
+      }
+    }
+  }
+  &__link{
+    padding: 10px 10px !important;
+    color: #ffffff !important;
+    &:hover{
+      background-color: #E47728;
+      color: #ffffff !important;
+    }
+    .uk-active &{
+      background-color: #E47728;
+      color: #ffffff !important;
+    }
+  }
+}
+.menu_nk{
+  .uk-nav{
+    >li{
+      &.uk-active{
+        >a{
+          background-color: #E47728;
+          color: #ffffff !important;
+        }
+      }
+      >a{
+        padding: 8px 12px;
+        padding-right: 5px;
+      }
+    }
+  }
+}

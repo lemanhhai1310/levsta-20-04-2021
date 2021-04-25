@@ -21,12 +21,20 @@
 <body class="<?= ($is_home) ? 'isHome' : '' ?>">
 <?php require "template-parts/commons/facebook_chat.php"; ?>
 <section id="app" class="uk-height-viewport uk-offcanvas-content uk-overflow-hidden uk-position-relative">
+<?php require "template-parts/commons/menumobile.php"; ?>
 <div uk-sticky="animation: uk-animation-slide-top;top: 100vh;">
     <div class="header">
         <div class="uk-container uk-padding-remove">
             <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
 
                 <div class="uk-navbar-left">
+                    <a href="#my-id" class="uk-navbar-toggle uk-hidden@m" uk-toggle>
+                        <div id="m_nav_menu" class="m_nav menu">
+                            <div class="m_nav_ham button_closed" id="m_ham_1"></div>
+                            <div class="m_nav_ham button_closed" id="m_ham_2"></div>
+                            <div class="m_nav_ham button_closed" id="m_ham_3"></div>
+                        </div>
+                    </a>
                     <a href="." class="uk-navbar-item uk-logo"><img src="images/1x/logo.png" alt=""></a>
                     <ul class="uk-navbar-nav uk-visible@m">
                         <li class="uk-active"><a href=".">TRANG CHỦ</a></li>
