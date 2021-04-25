@@ -15,7 +15,7 @@
                         </p>
                         <a href="" class="bds__sidebarLeft__btn uk-button uk-button-secondary uk-button-small uk-border-pill">Read More...</a>
                     </div>
-                    <ul class="uk-margin-medium uk-nav uk-nav-default bds__sidebarLeft__nav" uk-scrollspy-nav="closest: li; scroll: true; offset: 100">
+                    <ul class="uk-margin-medium uk-nav uk-nav-default bds__sidebarLeft__nav" uk-scrollspy-nav="closest: li; scroll: true; offset: 0">
                         <li><a href="#thongsoduan">THÔNG SỐ DỰ ÁN </a></li>
                         <li><a href="#thongtin">THÔNG TIN</a></li>
                         <li><a href="#thutucdinhcu">THỦ TỤC ĐỊNH CƯ VÀ TÍNH PHÁP LÝ CỦA DỰ ÁN</a></li>
