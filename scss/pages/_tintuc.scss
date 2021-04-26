@@ -1,0 +1,107 @@
+.tintuc{
+  &__nav{
+    >li{
+      &.uk-active{
+        >a{
+          font-family: $font-SVN-Segoe-UI-Bold;
+          position: relative;
+          &:before{
+            @include media-breakpoint-up('m'){
+              content: "";
+              position: absolute;
+              right: calc(100% + 15px);
+              top: 50%;
+              transform: translateY(-50%);
+              width: 50px;
+              height: 1px;
+              background-color: currentColor;
+              display: inline-block;
+            }
+          }
+        }
+      }
+      >a{
+        font-family: $font-SVN-Segoe-UI-Light;
+        @extend .fz-12;
+        color: #000;
+      }
+    }
+  }
+  &__box1{
+    border-bottom: 1px solid #000000;
+    padding-bottom: 3px;
+    &__title{
+      line-height: (36/30);
+      @extend .fz-30;
+      font-family: $font-Segoe-UI-Semibold;
+      color: #000;
+    }
+    &__fillter{
+      @extend .fz-12;
+      border-color: #000;
+      color: #000;
+    }
+  }
+  &__item1{
+    &__title{
+      line-height: (25/15);
+      @extend .fz-15;
+      font-family: $font-SVN-Segoe-UI-Bold;
+      margin-top: 0;
+      margin-bottom: 10px;
+      a{
+        color: #000;
+      }
+    }
+  }
+  &__item2{
+    &__date{
+      left: 6px;
+      top: 19px;
+      padding: 3px 4px;
+      line-height: (15/12);
+      @extend .fz-12;
+      color: #000;
+      background-color: #fff;
+      display: inline-block;
+      &:before{
+        content: "";
+        position: absolute;
+        bottom: 2px;
+        left: 6px;
+        width: 12px;
+        height: 1px;
+        display: inline-block;
+        background-color: #000000;
+      }
+    }
+    &__title{
+      line-height: (25/15);
+      @extend .fz-15;
+      font-family: $font-SVN-Segoe-UI-Bold;
+      a{
+        color: #000;
+      }
+    }
+    &__desc{
+      line-height: (20/12);
+      @extend .fz-12;
+      font-family: $font-SVN-Segoe-UI-Light;
+      color: #000;
+      padding-left: 10px;
+      position: relative;
+      &:before{
+        content: "";
+        position: absolute;
+        width: 1px;
+        height: calc(100% - 10px);
+        display: inline-block;
+        background-color: currentColor;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        bottom: 0;
+      }
+    }
+  }
+}

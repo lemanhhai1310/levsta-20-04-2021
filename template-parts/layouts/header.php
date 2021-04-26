@@ -41,7 +41,7 @@
                         <li><a href="#">GIỚI THIỆU</a></li>
                         <li><a href="#">DỊCH VỤ</a></li>
                         <li><a href="batdongsan.php">BẤT ĐỘNG SẢN</a></li>
-                        <li><a href="#">TIN TỨC</a></li>
+                        <li><a href="tintuc.php">TIN TỨC</a></li>
                         <li><a href="#">TUYỂN DỤNG</a></li>
                         <li><a href="lienhe.php">LIÊN HỆ</a></li>
                     </ul>
