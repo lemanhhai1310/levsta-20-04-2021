@@ -1,0 +1,14 @@
+.tintuc-detail{
+  &__title{
+    font-family: $font-SVN-Segoe-UI-Bold;
+    color: #000;
+  }
+  &__article{
+    p{
+      line-height: (20/12);
+      @extend .fz-12;
+      font-family: $font-SVN-Segoe-UI-Light;
+      color: #000;
+    }
+  }
+}
