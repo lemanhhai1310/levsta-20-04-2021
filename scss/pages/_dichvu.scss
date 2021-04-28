@@ -1,0 +1,47 @@
+.dichvu{
+  &__title1{
+    line-height: (15.08/12.57);
+    font-family: $font-SVN-Segoe-UI-Bold;
+    @extend .fz-12;
+    a{
+      color: #ffffff;
+    }
+  }
+  &__bg{
+    background: rgba(#000,0.7);
+  }
+  &__nopdonquadichvu{
+    &__number{
+      line-height: (15/12);
+      @extend .fz-12;
+      font-family: $font-Segoe-UI-Semibold;
+      color: #CCCC66 !important;
+    }
+  }
+  &__cacbuocnopdon{
+    &__title{
+      @extend .dichvu__yeucautaichinh__title;
+    }
+  }
+  &__yeucautaichinh{
+    &__title{
+      line-height: (18/15);
+      @extend .fz-15;
+      font-family: $font-SVN-Segoe-UI-Bold;
+      color: #CCCC66 !important;
+    }
+    &__title1{
+      font-family: $font-Segoe-UI-Semibold;
+      line-height: 1;
+      @extend .fz-15;
+    }
+    &__box1{
+      padding-left: 20px;
+      &__txt{
+        line-height: (20/12);
+        @extend .fz-12;
+        font-family: $font-SVN-Segoe-UI-Light;
+      }
+    }
+  }
+}
