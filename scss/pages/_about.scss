@@ -1,0 +1,26 @@
+.about{
+  &__sanpham{
+    &__desc{
+      line-height: (20/12);
+      @extend .fz-12;
+      color: #000;
+      font-family: $font-Segoe-UI-Regular;
+    }
+  }
+  &__giatricotloi{
+    &__title{
+      line-height: (25/18);
+      @extend .fz-18;
+      font-family: $font-SVN-Segoe-UI-Bold;
+      color: #000;
+      margin-bottom: 5px;
+    }
+    &__desc{
+      line-height: (20/15);
+      @extend .fz-15;
+      font-family: $font-SVN-Segoe-UI-Light;
+      color: #000;
+      position: relative;
+    }
+  }
+}

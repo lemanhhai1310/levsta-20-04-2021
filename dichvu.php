@@ -1,7 +1,7 @@
 <?php $data["title"] = "Dich vu"; ?>
 <?php $is_home = false; ?>
 <?php require "template-parts/layouts/header.php"; ?>
-<div class="uk-flex uk-flex-middle uk-background-norepeat uk-background-cover uk-background-center-center" data-src="images/1x/bg_dichvu.png" uk-img uk-height-viewport="offset-top: true;">
+<div class="uk-flex uk-flex-middle uk-section uk-background-norepeat uk-background-cover uk-background-center-center" data-src="images/1x/bg_dichvu.png" uk-img uk-height-viewport="offset-top: true;">
     <div class="uk-width-1-1">
         <div class="uk-container">
             <div class="uk-child-width-1-4@m uk-flex-between" uk-grid>

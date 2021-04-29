@@ -38,7 +38,7 @@
                     <a href="." class="uk-navbar-item uk-logo"><img src="images/1x/logo.png" alt=""></a>
                     <ul class="uk-navbar-nav uk-visible@m">
                         <li class="uk-active"><a href=".">TRANG CHỦ</a></li>
-                        <li><a href="#">GIỚI THIỆU</a></li>
+                        <li><a href="gioithieu.php">GIỚI THIỆU</a></li>
                         <li><a href="dichvu.php">DỊCH VỤ</a></li>
                         <li><a href="batdongsan.php">BẤT ĐỘNG SẢN</a></li>
                         <li><a href="tintuc.php">TIN TỨC</a></li>
